@@ -54,3 +54,8 @@ for letter in "python":
         pass
         print("pass y")
     print(letter)
+
+
+# Types hinting: to explain input and output type
+def hello(only_string: str) -> str:
+    return only_string
